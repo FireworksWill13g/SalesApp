@@ -1,0 +1,14 @@
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\SalesApp.exe.config
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\SalesApp.exe
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\SalesApp.pdb
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\EntityFramework.dll
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\EntityFramework.xml
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.csprojResolveAssemblyReference.cache
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.Properties.Resources.resources
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.csproj.GenerateResource.Cache
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.exe
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.pdb
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.Migrations.Intial.resources
+C:\Users\William\SkyDrive\Programming\Projects\SalesApp\obj\Debug\SalesApp.Migrations.SalesTargets.resources

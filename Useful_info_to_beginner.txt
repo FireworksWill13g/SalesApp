@@ -1,0 +1,52 @@
+﻿/******This section has useful information about how this application is set up and code basics******/
+
+SHORTCUTS in Visual Studio
+	Format section: ctrl+K+D
+
+CONNECTING TO A (one) MODEL
+	You Need one Property for the Model itself and one property for the model's ID 
+
+	Ex: 
+		public virtul SalesRegion Region { get; set; }   // This is the Property for the Model
+
+		[Required]
+		public int RegionId { get; set; }    // This is the property for the model's ID 
+
+	***Notice the naming convention, this is important to use the same name so that Entity Framework can connect the two
+
+CONNECTING TO MULTIPLE (many) MODELS
+	You need to set up a collection property - here we used Observable List Source (for windows forms)
+	For Web Application you can use ICollection
+
+	Ex.
+		public virtual ObservableListSource<Sale> Sales {get; set;}
+
+		//Note that <Sale> is a class or object and Sales is what we are naming it for use later
+
+
+C# COMMANDS/OPERATORS
+
+?? Operator
+		The ?? operator is called the null-coalescing operator. 
+		It returns the left-hand operand if the operand is not null; otherwise it returns the right hand operand.
+
+
+DATABASE CONTEXT
+	Allows one to generte a Database
+
+To add additional columns or items to DB after creation:
+Go to TOOLS > NuGet Package Manager > Package Manager Console 
+Type in "Add-Migration" and give it a name relavent to what you have done such as Sales Target
+It should look like this:
+PM> Add-Migration SalesTargets
+Scaffolding migration 'SalesTargets'.
+The Designer Code for this migration file includes a snapshot of your current Code First model. This snapshot is used to 
+calculate the changes to your model when you scaffold the next migration. If you make additional changes to your model that 
+you want to include in this migration, then you can re-scaffold it by running 'Add-Migration SalesTargets' again.
+
+Then you need to Update the Database 
+PM> Update-Database
+Specify the '-Verbose' flag to view the SQL statements being applied to the target database.
+Applying explicit migrations: [201605291525450_SalesTargets].
+Applying explicit migration: 201605291525450_SalesTargets.
+Running Seed method.
